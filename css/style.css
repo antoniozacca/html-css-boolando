@@ -136,11 +136,15 @@ img{
 }
 header{
     height: 100px;
-    max-width: 1200px;
+    width: 1200px;
     background-color: orange;
     position: fixed;
+    margin-bottom: 1100px;
 }
 .icone{
     height: 50px;
     width: 50px;
+}
+main{
+    
 }
