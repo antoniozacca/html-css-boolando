@@ -80,3 +80,9 @@ img{
     text-decoration: line-through;
     
 }
+.card{
+    display: none;
+}
+.card:hover{
+    display: block;
+}
