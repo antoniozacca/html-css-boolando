@@ -92,3 +92,55 @@ img{
 .card:hover .display-none{
     display: block;
 }
+.heart1{
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    top: 50px;
+    left: 530px;
+}
+.heart2{
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    top: 50px;
+    left: 930px;
+}
+.heart3{
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    top: 50px;
+    right: 173px;
+}
+.heart4{
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    top: 682px;
+    left: 530px;
+}
+.heart5{
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    top: 682px;
+    left: 930px;
+}
+.heart6{
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    top: 682px;
+    right: 173px;
+}
+header{
+    height: 100px;
+    max-width: 1200px;
+    background-color: orange;
+    position: fixed;
+}
+.icone{
+    height: 50px;
+    width: 50px;
+}
