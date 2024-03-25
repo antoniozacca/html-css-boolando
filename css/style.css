@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 .container{
+    padding-top: 100px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -34,21 +35,21 @@ img{
 .position1{
     position: absolute;
     left: 170px;
-    top: 510px;
+    top: 620px;
 }
 .position2{
     position: absolute;
-    top: 510px;
+    top: 620px;
     left: 570px;
 }
 .position3{
     position: absolute;
-    top: 510px;
+    top: 620px;
     right: 504px;
 }
 .position4{
     position: absolute;
-    top: 1150px;
+    top: 1250px;
     left: 170px;
 }
 .sostenibile{
@@ -58,17 +59,17 @@ img{
 }
 .position-sostenibile1{
     position: absolute;
-    top: 510px;
+    top: 620px;
     left: 220px;
 }
 .position-sostenibile2{
     position: absolute;
-    top: 1150px;
+    top: 1250px;
     left: 220px;
 }
 .position-sostenibile3{
     position: absolute;
-    top: 1150px;
+    top: 1250px;
     right: 460px;
 
 }
@@ -96,55 +97,75 @@ img{
     position: absolute;
     background-color: white;
     padding: 0 5px;
-    top: 50px;
+    top: 130px;
     left: 530px;
 }
 .heart2{
     position: absolute;
     background-color: white;
     padding: 0 5px;
-    top: 50px;
+    top: 130px;
     left: 930px;
 }
 .heart3{
     position: absolute;
     background-color: white;
     padding: 0 5px;
-    top: 50px;
-    right: 173px;
+    top: 130px;
+    right: 170px;
 }
 .heart4{
     position: absolute;
     background-color: white;
     padding: 0 5px;
-    top: 682px;
+    top: 763px;
     left: 530px;
 }
 .heart5{
     position: absolute;
     background-color: white;
     padding: 0 5px;
-    top: 682px;
+    top: 763px;
     left: 930px;
 }
 .heart6{
     position: absolute;
     background-color: white;
     padding: 0 5px;
-    top: 682px;
-    right: 173px;
+    top: 763px;
+    right: 170px;
 }
 header{
-    height: 100px;
-    width: 1200px;
     background-color: orange;
     position: fixed;
     margin-bottom: 1100px;
+    z-index: 1;
 }
 .icone{
-    height: 50px;
-    width: 50px;
+    height: 20px;
+    width: 20px;
 }
-main{
-    
+.icona-logo{
+    width: 150px;
+    height: 50px;
+}
+.container-header{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+}
+.row-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header-left{
+    width: 25%;
+}
+.header-center{
+    width: 50%;
+}
+.header-right{
+    width: 25%;
 }
