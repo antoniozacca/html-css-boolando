@@ -86,9 +86,9 @@ img{
 .display-none{
     display: none;
 }
-.card:hover.display-block{
-    display: block;
-}
-.card:hover.display-none{
+.card::hover .display-block{
     display: none;
+}
+.card::hover .display-none{
+    display: block;
 }
